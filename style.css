@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #080a0b;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.logo {
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+.nav-links a:hover {
+    color: #00b894;
+}
+.content {
+    color: rgba(255, 255, 255, 0.75);
+    align-items: center;
+    justify-content: center;
+}
+.content h1 {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+.content h1 div {
+    font-size: 30px;
+}
+.content p {
+    text-align: center;
+    color: gray;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    background-color: #0d1012;
+    border-radius: 5px 5px 0px 0px;
+    min-width: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom: -150px;
+    z-index: 1;
+}
+.footer p {
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
