@@ -55,7 +55,7 @@ body {
     color: #00b894;
 }
 @keyframes fadeIn {
-    0% { opacity: 0; left: -100vh;}
+    0% { opacity: 0; left: -100%;}
     100% { opacity: 1; left: 0px;}
 }
 .content {
@@ -73,6 +73,12 @@ body {
 }
 .content h1 div {
     font-size: 30px;
+}
+.content img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
 }
 .content p {
     text-align: center;
