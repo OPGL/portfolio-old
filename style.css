@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     border-radius: 0px 0px 5px 5px;
     width: 100%;
-    padding: 2vh;
+    padding: 20px;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -30,11 +30,11 @@ body {
     color: #fff;
     display: flex;
     font-family: 'Abel', sans-serif;
-    font-size: 5vh;
+    font-size: 30px;
 }
 .logo img {
-    width: 8vh;
-    height: 8vh;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
     margin-top: 14px;
     border-radius: 25px;
@@ -47,8 +47,8 @@ body {
     color: #fff;
     text-decoration: none;
     font-family: 'Abel', sans-serif;
-    margin-left: 2vh;
-    font-size: 3vh;
+    margin-left: 20px;
+    font-size: 20px;
     transition: all 0.3s ease;
 }
 .nav-links a:hover {
@@ -60,12 +60,12 @@ body {
     justify-content: center;
 }
 .content h1 {
-    font-size: 10vh;
+    font-size: 50px;
     font-family: 'Raleway', sans-serif;
-    padding: 2vh;
+    padding: 20px;
 }
 .content h1 div {
-    font-size: 4vh;
+    font-size: 30px;
 }
 .content p {
     text-align: center;
@@ -79,7 +79,7 @@ body {
     background-color: #0d1012;
     border-radius: 5px 5px 0px 0px;
     min-width: 100%;
-    padding: 4vh;
+    padding: 20px;
     position: absolute;
     bottom: -150px;
     z-index: 1;
@@ -87,5 +87,22 @@ body {
 .footer p {
     color: #fff;
     font-family: 'Abel', sans-serif;
-    font-size: 4vh;
+    font-size: 20px;
+}
+
+
+@media (max-width: 750px) {
+    .nav-links {
+        display: inline-block;
+        align-items: center;
+    }
+    
+    .content h1 {
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        padding: 20px;
+    }
+    .content h1 div {
+        font-size: 12px;
+    }
 }
